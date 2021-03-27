@@ -1,0 +1,161 @@
+/* ------------------------- */
+/* WidozaPlayer v0.2 */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Última actualización 10/03/2021 */
+/* ------------------------- */
+
+.widoza-video {
+	width: 100%;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+}
+
+.widoza-video .vjs-control-bar {
+	background: rgba(0,0,0,.0);
+	color: #FFFFFFEA;
+}
+
+.widoza-video .vjs-play-progress,
+.widoza-video .vjs-volume-level {
+	background: #ff0a00;
+}
+
+.widoza-video .vjs-slider {
+	background: #2d5f85;
+}
+
+.video-js:hover .vjs-big-play-button {
+	background: rgba(0,0,0,.0);
+}
+
+.widoza-video .vjs-big-play-button {
+	background: rgba(0,0,0,.0);
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	border:none;
+}
+
+.widoza-video .vjs-big-play-button:hover {
+	background: rgba(0,0,0,.0);
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+   content: "";
+   background-image: url('https://static-l3.xvideos-cdn.com/v-4376f9a8706/v3/img/player/icon-play.svg');
+   background-repeat: no-repeat;
+   background-size: 46px;
+   background-position: 55% calc(50% - 0px);
+   border: none !important;
+   box-shadow: none !important;
+}
+
+.widoza-video .vjs-menu-button-inline.vjs-slider-active, .widoza-video .vjs-menu-button-inline:focus, .widoza-video .vjs-menu-button-inline:hover, .widoza-video.vjs-no-flex .vjs-menu-button-inline {
+    width: 10em
+}
+
+.widoza-video .vjs-controls-disabled .vjs-big-play-button {
+    display: none !important
+}
+
+.widoza-video .vjs-control {
+    width: 3em
+}
+
+.widoza-video .vjs-menu-button-inline:before {
+    width: 1.5em
+}
+
+.vjs-menu-button-inline .vjs-menu {
+    left: 3em
+}
+
+.vjs-paused.vjs-has-started.widoza-video .vjs-big-play-button, .widoza-video.vjs-ended .vjs-big-play-button, .widoza-video.vjs-paused .vjs-big-play-button {
+    display: block
+}
+
+.widoza-video .vjs-load-progress div, .vjs-seeking .vjs-big-play-button, .vjs-waiting .vjs-big-play-button {
+    display: none !important
+}
+
+.widoza-video .vjs-mouse-display:after, .widoza-video .vjs-play-progress:after {
+    padding: 0 .4em .3em
+}
+
+.widoza-video.vjs-ended .vjs-loading-spinner {
+    display: none;
+}
+
+.widoza-video.vjs-ended .vjs-big-play-button {
+    display: block !important;
+}
+
+widoza-video.vjs-ended .vjs-big-play-button, .widoza-video.vjs-paused .vjs-big-play-button, .vjs-paused.vjs-has-started.widoza-video .vjs-big-play-button {
+    display: block
+}
+
+.widoza-video .vjs-big-play-button {
+    top: 50%;
+    left: 50%;
+    margin-left: -1.5em;
+    margin-top: -1em
+}
+
+.widoza-video .vjs-big-play-button {
+    font-size: 2.5em;
+    border-radius: 50%;
+    height: 2em !important;
+    line-height: 2em !important;
+    margin-top: -1em !important
+}
+    .widoza-video:hover .vjs-big-play-button, .widoza-video .vjs-big-play-button:focus, .widoza-video .vjs-big-play-button:active {
+        background-color: rgba(44,151,222,0.0) 
+    }
+
+.widoza-video .vjs-loading-spinner {
+    border-color: #2d5f85
+}
+
+.widoza-video .vjs-control-bar2 {
+    background-color: transparent
+}
+
+.widoza-video .vjs-control-bar {
+    background-color: rgba(0,0,0,0) !important;
+    color: #ffffff;
+    font-size: 17px
+}
+
+.widoza-video .vjs-big-play-button {
+    height: 2em !important;
+    width: 2em !important;
+    line-height: 1.7em !important;
+    margin-top: -1em !important;
+    margin-left: -1em;
+    border-width: 4px
+}
+
+    .widoza-video .vjs-icon-play:before, .widoza-video .vjs-big-play-button:before {
+        font-size: 40px;
+    }
+
+.widoza-video .vjs-progress-holder {
+    font-size: 1.7em;
+    border-radius: 10px;
+}
+
+    .widoza-video .vjs-progress-holder .vjs-play-progress, .widoza-video .vjs-progress-holder .vjs-load-progress, .widoza-video .vjs-progress-holder .vjs-load-progress div, .widoza-video .vjs-slider, .vjs-volume-level {
+        border-radius: 10px;
+    }
+
+.widoza-video .vjs-load-progress {
+    background: rgba(255,255,255,0.5);
+}
+
+.widoza-video, .widoza-video video, .vjs-poster, .widoza-video .vjs-tech {
+    border-radius: 8px;
+}
+/* ------------------------- */
+/* WidozaPlayer Video.JS Skin código abierto puedes modificarla y usarla en tu sitio web cuántas veces quieras! */
+/* ------------------------- */
