@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:20
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:20.000000,
+https://tv.teleclub.xyz/hls/vencida.ts
+#EXTINF:20.000000,
+https://tv.teleclub.xyz/hls/vencida.ts
